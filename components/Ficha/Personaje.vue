@@ -5,6 +5,9 @@
       <input type="text" placeholder="raza">
       <input type="text" placeholder="profesion actual">
       <input type="text" placeholder="profesion anterior">
+      <div class="titulo">Experiencia</div>
+      <input class="medio" type="text" placeholder="Actual">
+      <input class="medio" type="text" placeholder="Total">
     </div>
 </template>
 
@@ -14,6 +17,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.medio{
+  width: 48%;
+}
 </style>

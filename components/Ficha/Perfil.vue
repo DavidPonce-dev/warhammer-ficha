@@ -3,17 +3,17 @@
       <div class="titulo">Perfil del personaje</div>
       <table>
         <thead>
-          <td>Principales</td>
-          <td>HP</td>
-          <td>F</td>
-          <td>R</td>
-          <td>Ag</td>
-          <td>Int</td>
-          <td>V</td>
-          <td>Em</td>
+          <th>Principales</th>
+          <th>HP</th>
+          <th>F</th>
+          <th>R</th>
+          <th>Ag</th>
+          <th>Int</th>
+          <th>V</th>
+          <th>Em</th>
         </thead>
         <tbody>
-          <td>Iniciales</td>
+          <th>Iniciales</th>
           <td><input class="stat" type="text"></td>
           <td><input class="stat" type="text"></td>
           <td><input class="stat" type="text"></td>
@@ -23,7 +23,7 @@
           <td><input class="stat" type="text"></td>
         </tbody>
         <tbody>
-          <td>Mejora</td>
+          <th>Mejora</th>
           <td><input class="stat" type="text"></td>
           <td><input class="stat" type="text"></td>
           <td><input class="stat" type="text"></td>
@@ -33,7 +33,7 @@
           <td><input class="stat" type="text"></td>
         </tbody>
         <tbody>
-          <td>Actuales</td>
+          <th>Actuales</th>
           <td><input class="stat" type="text"></td>
           <td><input class="stat" type="text"></td>
           <td><input class="stat" type="text"></td>
@@ -43,18 +43,18 @@
           <td><input class="stat" type="text"></td>
         </tbody>
         <thead>
-          <td>Secundarias</td>
-          <td>A</td>
-          <td>H</td>
-          <td>BF</td>
-          <td>BR</td>
-          <td>M</td>
-          <td>Mag</td>
-          <td>PL</td>
-          <td>PD</td>
+          <th>Secundarias</th>
+          <th>A</th>
+          <th>H</th>
+          <th>BF</th>
+          <th>BR</th>
+          <th>M</th>
+          <th>Mag</th>
+          <th>PL</th>
+          <th>PD</th>
         </thead>
         <tbody>
-          <td>Iniciales</td>
+          <th>Iniciales</th>
           <td><input class="stat" type="text"></td>
           <td><input class="stat" type="text"></td>
           <td><input class="stat" type="text"></td>
@@ -65,7 +65,7 @@
           <td><input class="stat" type="text"></td>
         </tbody>
         <tbody>
-          <td>Mejora</td>
+          <th>Mejora</th>
           <td><input class="stat" type="text"></td>
           <td><input class="stat" type="text"></td>
           <td><input class="stat" type="text"></td>
@@ -76,7 +76,7 @@
           <td><input class="stat" type="text"></td>
         </tbody>
         <tbody>
-          <td>Actuales</td>
+          <th>Actuales</th>
           <td><input class="stat" type="text"></td>
           <td><input class="stat" type="text"></td>
           <td><input class="stat" type="text"></td>
@@ -96,6 +96,18 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+  table{
+    width: 100%;
+  }
+  td{
+    border: solid 1px black !important;
+    text-align: center;
+  }
+  input{
+    text-align: center;
+  }
+  input{
+    width: 98%;
+  }
 </style>

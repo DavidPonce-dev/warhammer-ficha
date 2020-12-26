@@ -20,6 +20,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.medio {
+  width: 48%;
+}
 </style>
